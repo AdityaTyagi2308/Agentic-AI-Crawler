@@ -4,6 +4,7 @@ Agentic AI Crawler is a smart web crawler that recursively extracts, summarizes,
 It builds a structured tree of the website and enables semantic search using FAISS, allowing users to search meaningfully based on page content rather than keywords.
 
 **Features**
+
 ->Dynamic web crawling with depth control
 
 ->Summarization of web page content using Gemini models
@@ -19,6 +20,7 @@ It builds a structured tree of the website and enables semantic search using FAI
 ->Streamlit UI for easy interaction
 
 **Project Structure**
+
 .
 ├── app.py               # Streamlit frontend application
 
@@ -56,6 +58,7 @@ It builds a structured tree of the website and enables semantic search using FAI
 
 
 **How It Works**
+
 1)The crawler extracts links starting from a given URL.
 
 2)For each page, it generates a content summary and classifies the page type using Gemini.
