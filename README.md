@@ -21,23 +21,37 @@ It builds a structured tree of the website and enables semantic search using FAI
 **Project Structure**
 .
 ├── app.py               # Streamlit frontend application
+
 ├── crawler.py           # Crawling logic for extracting URLs and page content
+
 ├── summarizer.py        # Functions for summarization and content embeddings
+
 ├── search.py            # FAISS indexing and semantic search functionality
+
 ├── gemini_vision.py     # Analyze images/screenshots of web pages
+
 ├── utils.py             # Utility functions
+
 ├── requirements.txt     # List of dependencies
+
 └── README.md            # Project documentation
+
 
 
 **Tech Stack**
 
 ->Python
+
 ->Streamlit (for UI)
+
 ->Google Gemini API (text summarization, classification, embedding)
+
 ->FAISS (for semantic search)
+
 ->BeautifulSoup and Requests (for HTML parsing)
+
 ->Selenium (for handling dynamic websites and taking screenshots)
+
 ->Graphviz (for website tree visualization)
 
 
